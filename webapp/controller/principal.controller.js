@@ -950,7 +950,7 @@ console.log(flagestado);
 						var arr2 = [];
 						arr2.push(obj2);
 						t.popSuccesCorreo(arr2, "conversión Realizada");
-						t.generarEntradaAuditoria(Number(json[k].Pedido), json[k].Material);
+						//t.generarEntradaAuditoria(Number(json[k].Pedido), json[k].Material);
 					},
 					error: function (jqXHR, textStatus, errorThrown) {
 
@@ -1130,7 +1130,7 @@ console.log(flagestado);
 						var arr2 = [];
 						arr2.push(obj2);
 						t.popSuccesCorreo(arr2, "conversión Realizada");
-						t.generarEntradaAuditoria(Number(posiciones[k].Pedido), posiciones[k].Material);
+						//t.generarEntradaAuditoria(Number(posiciones[k].Pedido), posiciones[k].Material);
 					},
 					error: function (jqXHR, textStatus, errorThrown) {
 
